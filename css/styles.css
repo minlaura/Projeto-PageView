@@ -1,0 +1,288 @@
+/* Geral */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+p {
+  color: #70646a;
+}
+
+/* navbar */
+.navbar-container {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(177, 110, 68);
+  padding: 0 2rem;
+}
+nav {
+  position: relative;
+}
+.logo {
+  margin-top: 5px;
+}
+.navbar-items {
+  position: absolute;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  display: inline-block;
+}
+.navbar-items li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+.navbar-items a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.navbar-items a:hover {
+  color: #ccc;
+}
+.default-btn {
+  padding: 15px 20px;
+  background-color: #632f02e3;
+  border-radius: 5px;
+}
+.navbar-items .default-btn:hover {
+  background-color: rgba(139, 74, 0, 0.788);
+  color: white;
+}
+/* main banner */
+.main-banner {
+  background-image: url(/assets/mainbanner.jpg);
+  padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #000 3px 2px 3px;
+}
+.main-banner h1 {
+  font-size: 54px;
+}
+.main-banner p {
+  font-size: 35px;
+}
+
+/* Services */
+.services-container {
+  padding: 5rem 0;
+}
+.services-container ul {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.services-container li {
+  flex: 1 1 200px;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+.services-container p {
+  font-size: 25px;
+  line-height: 25px;
+}
+.services-container h3 {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.icones-img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 15px;
+}
+/* Prices and plans */
+.pricing-container {
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.pricing-container h2 {
+  font-size: 35px;
+  margin-top: 0;
+}
+.pricing-container p {
+  font-size: 20px;
+}
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto 0;
+}
+.plan {
+  flex: 1;
+  max-width: 275px;
+  margin: 0 20px;
+}
+.plan ul {
+  padding: 0;
+}
+.plan li {
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(255, 236, 174);
+  color: #333;
+}
+.plan .price {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(177, 110, 68);
+  color: white;
+  text-align: center;
+  line-height: 120px;
+  margin: 0 auto -50px;
+  font-size: 18px;
+  position: relative;
+}
+.plan .plan-name {
+  text-transform: uppercase;
+  font: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(173, 98, 0, 0.473);
+  padding: 50px 0;
+}
+.plan .plan-btn {
+  background-color: rgb(177, 110, 68);
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  height: 75px;
+  line-height: 75px;
+}
+.plan .recommended {
+  background-color: rgb(255, 166, 0);
+}
+
+/* Contact */
+.contact-info {
+  background-color: rgb(177, 110, 68);
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+}
+.contact-info h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.contact-info p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.contact-info input,
+.contact-info textarea {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #412a00;
+  margin: 0 10px 20px;
+}
+.contact-info textarea {
+  display: block;
+  margin: 0 auto 20px;
+  width: 500px;
+  height: 150px;
+}
+
+.contact-info input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #632f02e3;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* footer */
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  background-color: rgb(177, 110, 68);
+  padding: 20px;
+}
+footer p {
+  color: #fff;
+}
+
+/* Responsividade */
+
+/* Small laptops */
+
+@media (max-width: 1110px) {
+  .plans-container {
+    width: 100%;
+  }
+  .plan {
+    margin: 0 2px;
+  }
+  .plan li {
+    font-size: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .main-banner p {
+    font-size: 32px;
+    padding: 0 6rem;
+  }
+  .plan li {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-items li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .main-banner p {
+    padding: 0 2rem;
+  }
+  .services-container ul {
+    flex-direction: column;
+  }
+  .plans-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .plan {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .plan li {
+    font-size: 15px;
+  }
+  .contact-info {
+    padding: 3rem 2rem;
+  }
+  .contact-info input,
+  .contact-info textarea {
+    width: 100%;
+    margin: 10px 0px;
+  }
+}

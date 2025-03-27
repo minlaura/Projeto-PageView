@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageView</title>
+
+    <!-- ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <a href="#">
+            <img src="/assets/icons8-imprensa-matinal-64.png" alt="PageView" />
+          </a>
+          <ul class="navbar-items">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Preços</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="#" class="default-btn">Entrar</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <div class="main-banner">
+          <h1>Page View</h1>
+          <p>
+            Serviços de Leitura on-line. Milhares de histórias, um clique de
+            distância
+          </p>
+        </div>
+        <section class="services-container">
+          <ul>
+            <li>
+              <img
+                src="/assets/hollywood-star.png"
+                alt="Ícone Estrela por @juicy_fish"
+                class="icones-img"
+              />
+              <h3>Sua Estante</h3>
+              <p>
+                Algoritmo de recomendação baseado em leituras: Sugestões por
+                gênero, compatibilidade com perfil, recomendações de
+                comunidades.
+              </p>
+            </li>
+            <li>
+              <img
+                src="/assets/escrita-de-livro.png"
+                alt="Ícone de Livro por @Ayub Irawan"
+                class="icones-img"
+              />
+              <h3>Escrita Síncrona</h3>
+              <p>
+                Todos editando ao mesmo tempo, visualização instantânea das
+                alterações, marcação de contribuições individuais.
+              </p>
+            </li>
+            <li>
+              <img
+                src="/assets/fa-clube.png"
+                alt="Ícone Conjunto de Pessoas"
+                class="icones-img"
+              />
+              <h3>Clube de Leitura</h3>
+              <p>
+                Criação de Salas com discussões temáticas, sistema de votação
+                para próximas leituras, espaço para discussões e debates.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="pricing-container">
+          <h2>Planos de Inscrição</h2>
+          <p>Curtiu? Se inscreva como membro!</p>
+          <div class="plans-container">
+            <div class="plan">
+              <ul>
+                <li class="price">R$5,00/mês</li>
+                <li class="plan-name">Página Inicial</li>
+                <li>Acesso limitado a 3 livros</li>
+                <li>Biblioteca de 50 livros</li>
+                <li>1 Clube de Leitura</li>
+                <li>Recomendações básicas</li>
+                <li>Escrita colaborativas</li>
+                <li>Suporte via e-mail</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+
+            <div class="plan">
+              <ul>
+                <li class="price recommended">R$10,00/mês</li>
+                <li class="plan-name">Capítulo Aberto</li>
+                <li>Página Inicial +</li>
+                <li>Biblioteca ilimitada</li>
+                <li>3 Clubes de Leitura</li>
+                <li>Recomendações adaptadas</li>
+                <li>1 Postagem</li>
+                <li>Acesso a resenhas</li>
+
+                <li class="plan-btn recommended">Saber mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price">R$15,00/mês</li>
+                <li class="plan-name">Biblioteca Infinita</li>
+                <li>Capítulo Aberto +</li>
+                <li>Escrita colaborativa ilimitada</li>
+                <li>5 clubes de leitura</li>
+                <li>3 Postagens</li>
+                <li>Criação de clubes</li>
+                <li>Suporte VIP 24h</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price">R$50,00/ano</li>
+                <li class="plan-name">Arquiteto de Histórias</li>
+                <li>Biblioteca Infinita +</li>
+                <li>Escrita colaborativa ilimitada</li>
+                <li>Acesso a todos os clubes</li>
+                <li>Postagens ilimitadas</li>
+                <li>Emblema especial</li>
+                <li>Prioridade em salas temáticas</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="contact-info">
+          <h2>Quer se comunicar com a gente?</h2>
+          <p>Mande uma mensagem através do nosso email!</p>
+          <form>
+            <input type="text" name="email" id=" name" placeholder="Seu nome" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail"
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Envie sua mensagem."
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>PageView @ 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
