@@ -62,7 +62,7 @@ nav {
 }
 /* main banner */
 .main-banner {
-  background-image: url(/assets/mainbanner.jpg);
+  background-image: url("../assets/mainbanner.jpg");
   padding: 10rem 0;
 }
 
