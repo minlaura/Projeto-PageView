@@ -57,11 +57,8 @@ A seção de contato convida o usuário a interagir, com campos para:
 
 ---
 
-## 🚀 Como Visualizar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/pageview.git
+   
 
 
 
