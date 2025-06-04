@@ -21,14 +21,15 @@ p {
 .navbar-container {
   width: 100%;
   height: 80px;
-  background-color: rgb(177, 110, 68);
+  background-color: #3d103d;
   padding: 0 2rem;
 }
 nav {
   position: relative;
 }
 .logo {
-  margin-top: 5px;
+  margin-top: 10px;
+  width: 50px;
 }
 .navbar-items {
   position: absolute;
@@ -53,17 +54,19 @@ nav {
 }
 .default-btn {
   padding: 15px 20px;
-  background-color: #632f02e3;
+  background-color: #ff8317e3;
   border-radius: 5px;
 }
 .navbar-items .default-btn:hover {
-  background-color: rgba(139, 74, 0, 0.788);
+  background-color: rgb(187, 126, 35);
   color: white;
 }
 /* main banner */
 .main-banner {
-  background-image: url("../assets/mainbanner.jpg");
+  background-image: url("../assets/bannermain.jpg");
   padding: 10rem 0;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-banner h1,
@@ -138,14 +141,14 @@ nav {
   list-style: none;
   height: 50px;
   line-height: 50px;
-  background-color: rgb(255, 236, 174);
-  color: #333;
+  background-color: #ffecda;
+  color: #5a5753;
 }
 .plan .price {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: rgb(177, 110, 68);
+  background-color: #3d103d;
   color: white;
   text-align: center;
   line-height: 120px;
@@ -158,24 +161,40 @@ nav {
   font: 20px;
   font-weight: bold;
   color: #fff;
-  background-color: rgba(173, 98, 0, 0.473);
+  background-color: #9a52dddc;
   padding: 50px 0;
 }
 .plan .plan-btn {
-  background-color: rgb(177, 110, 68);
+  background-color: #3d103d;
   font-size: 24px;
   color: #fff;
   cursor: pointer;
   height: 75px;
   line-height: 75px;
 }
+
+.plan .plan-btn:hover {
+  background-color: #3f0872;
+}
+
 .plan .recommended {
-  background-color: rgb(255, 166, 0);
+  background-color: #eb7d00;
+}
+.plan .plan-btn-rec {
+  background-color: #eb7d00;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  height: 75px;
+  line-height: 75px;
+}
+.plan .plan-btn-rec:hover {
+  background-color: #ffaa00;
 }
 
 /* Contact */
 .contact-info {
-  background-color: rgb(177, 110, 68);
+  background-color: #3d103d;
   text-align: center;
   padding: 5rem 0 2rem 0;
 }
@@ -208,7 +227,7 @@ nav {
 .contact-info input[type="submit"] {
   display: block;
   margin: 0 auto;
-  background-color: #632f02e3;
+  background-color: #ff8317e3;
   color: #ffffff;
   cursor: pointer;
 }
@@ -217,7 +236,7 @@ footer {
   text-align: center;
   font-weight: bold;
   margin: 0;
-  background-color: rgb(177, 110, 68);
+  background-color: rgb(61, 16, 61);
   padding: 20px;
 }
 footer p {
